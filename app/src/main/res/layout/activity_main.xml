@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.fey_agape.happybirthday.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/peter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/peter" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="right"
+        android:padding="5dp"
+        android:text="Happy Birthday my little Super Hero!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFEB3B" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="5dp"
+        android:text="Love always, Aunty "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFEB3B" />
+</RelativeLayout>
